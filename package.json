@@ -2,9 +2,9 @@
   "name": "hw12",
   "version": "1.0.0",
   "description": "node app ",
-  "main": "process.js",
+  "main": "index.js",
   "scripts": {
-    "start": "process.js"
+    "start": "node process.js"
   },
   "repository": {
     "type": "git",
