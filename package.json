@@ -2,7 +2,7 @@
   "name": "hw12",
   "version": "1.0.0",
   "description": "node app ",
-  "main": "process.js",
+  "main": "index.js",
   "scripts": {
   "start": "node process.js"
 },
