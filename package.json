@@ -4,7 +4,7 @@
   "description": "node app ",
   "main": "process.js",
   "scripts": {
-    "start": "node process.js"
+    "start": "process.js"
   },
   "repository": {
     "type": "git",
