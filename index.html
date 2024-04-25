@@ -1,1 +1,29 @@
-Hello
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Ticker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title">Browse Companies' Stocks</div>
+    <form action="/process" method="get">  
+        <input type="text" name="search" placeholder="Enter stock ticker name or company here" required>
+        <div>
+            Choose one
+        </div>
+        <div>
+            <input type="radio" name="filter" value="ticker" required> 
+            Stock Ticker
+        </div>
+        <div>
+            <input type="radio" name="filter" value="company"> 
+            Company Name
+        </div>
+        <button type="submit" class="submit">
+            Submit
+        </button>
+    </form>
+</body>
+</html>

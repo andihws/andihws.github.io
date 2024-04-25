@@ -1,0 +1,19 @@
+{
+  "name": "hw12",
+  "version": "1.0.0",
+  "description": "node app ",
+  "main": "processs.js",
+  "scripts": {
+  "start": "node process.js"
+},
+  "repository": {
+  "type": "git",
+  "url": ""
+},
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+  "url": ""
+},
+  "homepage": ""
+}
